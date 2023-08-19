@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+:root{
+    --primary-color:  rgba(33, 150, 243, 1);
+    --font-color: rgba(117, 117, 117, 1);
+    --detail-color: rgba(255, 255, 255, 1);
+}
+
+.header-title{
+  color: var(--primary-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em 
+}
+
+.list{
+  list-style: none;
+}
+
+.navigation-item .navigation-link{
+  color: rgba(33, 33, 33, 1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.navigation-item .navigation-link:hover{
+  color: var(--primary-color);
+}
+
+.navigation-item .navigation-link:focus{
+  color: var(--primary-color);
+}
+
+.contact-item .contact-link{
+  color:var(--font-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.contact-item .contact-link:hover{
+  color: var(--primary-color);
+}
+
+.contact-item .contact-link:focus{
+  color: var(--primary-color);
+}
+
+.main{
+  background-color: rgba(47, 48, 58, 1);
+  width: 1600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title{
+  color: var(--detail-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.main .primary-button{
+  display: flex;
+  justify-content: center;
+}
+
+.primary-button{
+  color: var(--detail-color);
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.benefit-item{
+font-size: 14px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+} 
+
+.benefit-text{
+  color: var(--font-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.about-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-name{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-text{
+  color: var(--font-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.filter-item .filter-button{
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.filter-button:hover{
+  color: var(--detail-color);
+  background-color: var(--primary-color);
+}
+
+.filter-button:focus{
+  color: var(--detail-color);
+  background-color: var(--primary-color);
+}
+
+.portafolio-title{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text{
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.footer{
+  background-color: rgba(47, 48, 58, 1);
+  text-decoration: none;
+}
+
+.footer-title{
+  color: var(--primary-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+}
+
+.footer-item .footer-link:focus{
+  color:var(--primary-color);
+}
+
+.footer-item .footer-link{
+  color:var(--detail-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact{
+  color: var(--font-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71; 
+  letter-spacing: 0.03em;
+
+}
+
+.footer-contact:hover{
+  color: var(--primary-color);
+}
+
+.footer-contact:focus{
+  color: var(--primary-color);
+}
+
+.container{
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation{
+  display: flex;
+  gap: 50px;
+}
+
+.contact{
+  display: flex;
+  gap: 50px;
+}
+
+.team .team-list{
+  width: 270px;
+  height: 368px;
+}
+
+.benefit-item{
+  width: 270px;
+  height: 101px;
+}
+
+.benefit-link{
+  display: flex;
+  gap: 30px;
+}
+
+.pv{
+  padding-top: 95px;
+  padding-bottom: 94px;
+}
+
+.pvportfolio{
+  padding-top: 106px;
+  padding-bottom: 82px;
+}
+
+.p-0{
+  padding: 0;
+}
+
+.pvfooter{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about{
+  display: flex;
+  gap: 30.26px;
+}
+
+.team{
+  display: flex;
+  gap: 30.26px;
+}
+
+.footer-hero{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 216px;
+}
+
+.filter-list{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 50px;
+}
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
