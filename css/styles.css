@@ -50,7 +50,11 @@ body{
   text-decoration: none;
   display: flex;
   gap: 10px;
-  
+}
+
+.contact-activ:hover .contact-link{
+  color: var(--primary-color);
+  fill: var(--primary-color);
 }
 
 .contact-item .contact-link{
@@ -61,16 +65,6 @@ body{
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-}
-
-.contact-item .contact-link:hover{
-  color: var(--primary-color);
-  fill: var(--primary-color);
-}
-
-.contact-item .contact-link:focus{
-  color: var(--primary-color);
-  fill: var(--primary-color);
 }
 
 .main{
