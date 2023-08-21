@@ -107,8 +107,13 @@ body{
 }
 
 .filter-item .current{
- background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
+
+.filter-item .current:hover{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); 
+}
+
 .benefit-item{
 font-size: 14px;
 font-weight: 700;
