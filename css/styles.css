@@ -67,6 +67,11 @@ body{
   letter-spacing: 0.02em;
 }
 
+.contact-link:focus{
+  color: var(--primary-color);
+  fill: var(--primary-color);
+}
+
 .main{
   background-color:rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(0, 0, 0, 0.4)), url('../images/fondomain.jpg');
@@ -438,11 +443,13 @@ letter-spacing: 0.03em;
 
 .icon-item:hover{
   fill: var(--detail-color);
-}
-
-.icon-item:hover{
   background-color: var(--primary-color);
   cursor: pointer;
+}
+
+.icon-item:focus{
+  fill: var(--detail-color);
+  background-color: var(--primary-color);
 }
 
 .iconfooter-item{
@@ -458,11 +465,13 @@ letter-spacing: 0.03em;
 
 .iconfooter-item:hover{
   fill: var(--detail-color);
+  background-color: var(--primary-color);
+  cursor: pointer
 }
 
-.iconfooter-item:hover{
+.iconfooter-item:focus{
+  fill: var(--detail-color);
   background-color: var(--primary-color);
-  cursor: pointer;
 }
 
 
